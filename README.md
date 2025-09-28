@@ -8,7 +8,9 @@
 ข้อความจะบอกว่า Invalid E-mail or password
 
 2.ทดสอบ Api การสมัครสมาชิกว่ามีการยิง ไปที่ url ไหนบ้าง method อะไรบ้าง
-หน้าRegisters โดยยิงAPI ไปที่ cypress/fixtures/intercepted_register.json
+หน้าRegisters โดยยิงAPI ไปที่ cypress/fixtures/intercepted_register.json หากจะดูผลลัพธ์ให้ดูในโฟลเดอร์ result จะเห็นผลลัพธ์ การยิงAPI 10 ครั้ง หลัง 30 วิ
+<img width="407" height="804" alt="image" src="https://github.com/user-attachments/assets/11ddecf0-10d5-4224-a142-a4fc2ee5c4a3" />
+
 <img width="1000" height="660" alt="register-success" src="https://github.com/user-attachments/assets/7faad153-6aee-473a-90fb-e9eb566da28b" />
 <img width="394" height="167" alt="image" src="https://github.com/user-attachments/assets/b0625a6e-946a-4097-989d-9687748a1fe3" />
 
