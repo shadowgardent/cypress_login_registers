@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "boss2@gmail.com",
+      "password": "password1234"
+    },
+    "responseBody": {
+      "_id": "68d63aa3b90092a9c2d335f0",
+      "firstName": "Boss",
+      "lastName": "Bot",
+      "email": "boss2@gmail.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDYzYWEzYjkwMDkyYTljMmQzMzVmMCIsImlhdCI6MTc1OTA0NDExMiwiZXhwIjoxNzU5MDQ3NzEyfQ.J2dBnx5yHJm5TThl8kKVdZjA_zHun8fArPOdYCkyckQ"
+    },
+    "statusCode": 200
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/login",
+    "method": "POST",
+    "requestBody": {
+      "email": "wrong@gmail.com",
+      "password": "wrongpass"
+    },
+    "responseBody": {
+      "message": "Invalid email or password"
+    },
+    "statusCode": 401
+  }
+]

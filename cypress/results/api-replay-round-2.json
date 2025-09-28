@@ -1,0 +1,8 @@
+{
+  "round": 2,
+  "email": "testuser2@mail.com",
+  "status": 400,
+  "body": {
+    "message": "User already exists"
+  }
+}
